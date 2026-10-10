@@ -4,11 +4,11 @@ This repository is a small PocketMine-MP example plugin for the [ReinfyTeam/libp
 
 ## Requirements
 
-- PocketMine-MP API `4.0.0`, as declared by the current `plugin.yml`.
+- PocketMine-MP API `5.0.0`, as declared by the current `plugin.yml`.
 - PHP 8.1 or newer for development checks.
 - The `ReinfyTeam\libpf\libpf` API supplied through the consumer's supported library/Virion workflow.
 
-This repository is an example consumer, not the library itself. Its current API 4 manifest is retained deliberately; the Composer development dependency on PocketMine-MP 5 is used for analysis and does not by itself change the plugin's declared runtime API.
+This repository is an example consumer, not the library itself. Its API 5 manifest matches the current consumer code and the Composer development dependency used for analysis. The library remains a separate Virion dependency and must be packaged with the plugin.
 
 ## Behavior
 

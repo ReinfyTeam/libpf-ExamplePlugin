@@ -1,8 +1,8 @@
 ---
 name: ExamplePlugin
-version: 1.0.0
+version: 1.1.0
 main: ReinfyTeam\ExamplePlugin\Main
-api: 4.0.0
+api: 5.0.0
 description: "Example plugin demonstrating the ReinfyTeam/libpf API."
 website: "https://github.com/ReinfyTeam/libpf"
 author: "ReinfyTeam"
