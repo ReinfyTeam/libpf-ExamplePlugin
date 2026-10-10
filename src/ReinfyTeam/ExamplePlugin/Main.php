@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace ReinfyTeam\ExamplePlugin;
 
 use pocketmine\plugin\PluginBase;
@@ -12,15 +14,15 @@ class Main extends PluginBase implements Listener{
     
     public function onEnable() : void{
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->getLogger()->notice("Sucessfully enabled the ProfanityFilter ExamplePlugin Testing!");
+		$this->getLogger()->notice("Successfully enabled the ProfanityFilter example plugin.");
     }
     
     public function onChat(PlayerChatEvent $event) : void{
         if(libpf::detectProfanity($event->getMessage(), libpf::defaultProfanity())){
-            $event->cancel(); // cancel the event
+			$event->cancel();
             $event->getPlayer()->sendMessage(TextFormat::RED . "Please watch your language!");
         } else {
-            $event->setMessage(libpf::removeUnicode(libpf::removeProfanity($event->getMessage(), libpf::defaultProfanity(), "*"), true)); // remove profanity + remove unicodes (bypasses)
+			$event->setMessage(libpf::removeUnicode(libpf::removeProfanity($event->getMessage(), libpf::defaultProfanity(), "*"), true));
         }
     }
 }
