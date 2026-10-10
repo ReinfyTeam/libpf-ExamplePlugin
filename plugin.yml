@@ -3,8 +3,8 @@ name: ExamplePlugin
 version: 1.0.0
 main: ReinfyTeam\ExamplePlugin\Main
 api: 4.0.0
-description: "A home of ProfanityFilter Example Plugin, shows the API Usages."
-website: "https://github.com/ReinfyTeam/ProfanityFilter"
+description: "Example plugin demonstrating the ReinfyTeam/libpf API."
+website: "https://github.com/ReinfyTeam/libpf"
 author: "ReinfyTeam"
 authors: ["NhanAZ","xqwtxon","xVoiqMC"]
 ...
