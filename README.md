@@ -29,4 +29,4 @@ The repository uses a small `tools/stubs/libpf/` declaration for static analysis
 
 For library API questions, see the [libpf repository](https://github.com/ReinfyTeam/libpf). For example-plugin issues, open an [issue](https://github.com/ReinfyTeam/libpf-ExamplePlugin/issues) with the plugin revision, server version and relevant logs.
 
-The example plugin is licensed under [LGPL-2.1-only](LICENSE) and preserves the ReinfyTeam author credits from the project metadata.
+The example plugin is licensed under [MIT](LICENSE) and preserves the ReinfyTeam author credits from the project metadata. This license applies to the example consumer; it does not replace the license of the `libpf` library.

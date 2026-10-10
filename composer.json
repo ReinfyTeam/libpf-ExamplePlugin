@@ -1,7 +1,7 @@
 {
     "name": "reinfyteam/libpf-example-plugin",
     "description": "Example PocketMine-MP plugin for the libpf API",
-    "license": "LGPL-2.1-only",
+    "license": "MIT",
     "require-dev": {
         "phpstan/phpstan": "^2.1",
         "pocketmine/pocketmine-mp": "^5.44"
